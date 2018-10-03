@@ -9285,37 +9285,6 @@ Source: AVX .. aphvc.pdf</description>
 </library>
 <library name="Tmp_PN">
 <packages>
-<package name="VSSOP8">
-<description>&lt;b&gt;VSSOP 8&lt;/b&gt; - DGK (S-PDSO-G8)&lt;p&gt;
-body 3.1 mm</description>
-<wire x1="1.55" y1="-1.45" x2="1.55" y2="1.45" width="0.2032" layer="21"/>
-<wire x1="1.55" y1="1.45" x2="-1.55" y2="1.45" width="0.2032" layer="21"/>
-<wire x1="-1.55" y1="1.45" x2="-1.55" y2="-1.45" width="0.2032" layer="21"/>
-<wire x1="-1.55" y1="-1.45" x2="1.55" y2="-1.45" width="0.2032" layer="21"/>
-<wire x1="-1.3" y1="-1.2" x2="1.3" y2="-1.2" width="0.0508" layer="51"/>
-<wire x1="1.3" y1="1.2" x2="1.3" y2="-1.2" width="0.0508" layer="51"/>
-<wire x1="1.3" y1="1.2" x2="-1.3" y2="1.2" width="0.0508" layer="51"/>
-<wire x1="-1.3" y1="-1.2" x2="-1.3" y2="1.2" width="0.0508" layer="51"/>
-<circle x="-0.9" y="-0.8" radius="0.325" width="0" layer="21"/>
-<smd name="1" x="-0.975" y="-2.325" dx="0.35" dy="1.2" layer="1"/>
-<smd name="2" x="-0.325" y="-2.325" dx="0.35" dy="1.2" layer="1"/>
-<smd name="3" x="0.325" y="-2.325" dx="0.35" dy="1.2" layer="1"/>
-<smd name="4" x="0.975" y="-2.325" dx="0.35" dy="1.2" layer="1"/>
-<smd name="5" x="0.975" y="2.325" dx="0.35" dy="1.2" layer="1"/>
-<smd name="6" x="0.325" y="2.325" dx="0.35" dy="1.2" layer="1"/>
-<smd name="7" x="-0.325" y="2.325" dx="0.35" dy="1.2" layer="1"/>
-<smd name="8" x="-0.975" y="2.325" dx="0.35" dy="1.2" layer="1"/>
-<text x="-1.8" y="-1.5" size="1.016" layer="25" ratio="18" rot="R90">&gt;NAME</text>
-<text x="2.6" y="-1.5" size="0.8128" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
-<rectangle x1="-1.1" y1="-2.6" x2="-0.85" y2="-1.5" layer="51"/>
-<rectangle x1="-0.45" y1="-2.6" x2="-0.2" y2="-1.5" layer="51"/>
-<rectangle x1="0.2" y1="-2.6" x2="0.45" y2="-1.5" layer="51"/>
-<rectangle x1="0.85" y1="-2.6" x2="1.1" y2="-1.5" layer="51"/>
-<rectangle x1="0.85" y1="1.5" x2="1.1" y2="2.6" layer="51"/>
-<rectangle x1="0.2" y1="1.5" x2="0.45" y2="2.6" layer="51"/>
-<rectangle x1="-0.45" y1="1.5" x2="-0.2" y2="2.6" layer="51"/>
-<rectangle x1="-1.1" y1="1.5" x2="-0.85" y2="2.6" layer="51"/>
-</package>
 <package name="SOT23-5">
 <description>&lt;b&gt;SOT-23&lt;/b&gt; - DBV&lt;p&gt;
 0.95 mm pitch</description>
@@ -9340,30 +9309,6 @@ body 3.1 mm</description>
 </package>
 </packages>
 <symbols>
-<symbol name="TXB0102">
-<wire x1="-12.7" y1="15.24" x2="12.7" y2="15.24" width="0.254" layer="94"/>
-<wire x1="12.7" y1="15.24" x2="12.7" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-10.16" x2="-12.7" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-10.16" x2="-12.7" y2="15.24" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-7.62" x2="-2.54" y2="-7.62" width="0.127" layer="97" style="shortdash"/>
-<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="5.08" width="0.127" layer="97" style="shortdash"/>
-<wire x1="-2.54" y1="5.08" x2="-12.7" y2="5.08" width="0.127" layer="97" style="shortdash"/>
-<wire x1="12.7" y1="5.08" x2="2.54" y2="5.08" width="0.127" layer="97" style="shortdash"/>
-<wire x1="2.54" y1="5.08" x2="2.54" y2="-7.62" width="0.127" layer="97" style="shortdash"/>
-<wire x1="2.54" y1="-7.62" x2="12.7" y2="-7.62" width="0.127" layer="97" style="shortdash"/>
-<text x="-12.7" y="17.78" size="1.27" layer="95">&gt;NAME</text>
-<text x="-12.7" y="-12.7" size="1.27" layer="96">&gt;VALUE</text>
-<text x="-11.43" y="-6.35" size="1.27" layer="97">1.1-3.6V</text>
-<text x="3.175" y="-6.35" size="1.27" layer="97">1.65-5.5V</text>
-<pin name="VCCA" x="-2.54" y="17.78" length="short" rot="R270"/>
-<pin name="A1" x="-15.24" y="2.54" length="short"/>
-<pin name="A2" x="-15.24" y="0" length="short"/>
-<pin name="GND" x="0" y="-12.7" length="short" rot="R90"/>
-<pin name="VCCB" x="2.54" y="17.78" length="short" rot="R270"/>
-<pin name="B1" x="15.24" y="2.54" length="short" rot="R180"/>
-<pin name="B2" x="15.24" y="0" length="short" rot="R180"/>
-<pin name="OE" x="-15.24" y="7.62" length="short"/>
-</symbol>
 <symbol name="NCP114ASN280T1G">
 <wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
@@ -9378,30 +9323,6 @@ body 3.1 mm</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TXB0102D" prefix="U">
-<description>TXB0102 2-Bit Bidirectional Voltage-Level Translator With Auto Direction Sensing and
-±15-kV ESD Protection</description>
-<gates>
-<gate name="G$1" symbol="TXB0102" x="0" y="-2.54"/>
-</gates>
-<devices>
-<device name="" package="VSSOP8">
-<connects>
-<connect gate="G$1" pin="A1" pad="5"/>
-<connect gate="G$1" pin="A2" pad="4"/>
-<connect gate="G$1" pin="B1" pad="8"/>
-<connect gate="G$1" pin="B2" pad="1"/>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="OE" pad="6"/>
-<connect gate="G$1" pin="VCCA" pad="3"/>
-<connect gate="G$1" pin="VCCB" pad="7"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="NCP114ASN280T1G" prefix="U" uservalue="yes">
 <description>Low cost fixed regulator 2,8 V, 300mA, SOT-23</description>
 <gates>
@@ -10180,7 +10101,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
-<part name="U6" library="Tmp_PN" deviceset="TXB0102D" device=""/>
 <part name="U7" library="Tmp_PN" deviceset="NCP114ASN280T1G" device=""/>
 <part name="TP1" library="testpad" deviceset="TP" device="PAD1-13" value="TPPAD1-13"/>
 <part name="TP2" library="testpad" deviceset="TP" device="PAD1-13" value="TPPAD1-13"/>
@@ -10196,16 +10116,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
-<part name="U$3" library="supply1" deviceset="+2V8" device=""/>
-<part name="V11" library="supply1" deviceset="+3V3" device=""/>
-<part name="GND20" library="supply1" deviceset="GND" device=""/>
-<part name="C8" library="rcl" deviceset="C-EU" device="C0603K" value="100nF"/>
-<part name="C9" library="rcl" deviceset="C-EU" device="C0603K" value="100nF"/>
-<part name="GND21" library="supply1" deviceset="GND" device=""/>
-<part name="GND22" library="supply1" deviceset="GND" device=""/>
-<part name="C10" library="rcl" deviceset="C-EU" device="C0603K" value="100nF"/>
-<part name="R7" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
-<part name="U$4" library="supply1" deviceset="+2V8" device=""/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
 <part name="R9" library="resistor" deviceset="R-US_" device="R0603" value="NC"/>
 <part name="R10" library="resistor" deviceset="R-US_" device="R0603" value="NC"/>
@@ -10296,7 +10206,6 @@ plug jumper</text>
 <instance part="GND14" gate="1" x="45.72" y="139.7"/>
 <instance part="P+3" gate="1" x="104.14" y="236.22"/>
 <instance part="GND16" gate="1" x="127" y="236.22" rot="R180"/>
-<instance part="U6" gate="G$1" x="215.9" y="91.44"/>
 <instance part="U7" gate="G$1" x="210.82" y="40.64"/>
 <instance part="TP1" gate="G$1" x="246.38" y="228.6" rot="R90"/>
 <instance part="TP2" gate="G$1" x="246.38" y="223.52" rot="R90"/>
@@ -10315,22 +10224,6 @@ plug jumper</text>
 <instance part="GND17" gate="1" x="187.96" y="30.48"/>
 <instance part="GND18" gate="1" x="210.82" y="25.4"/>
 <instance part="GND19" gate="1" x="233.68" y="30.48"/>
-<instance part="U$3" gate="G$1" x="210.82" y="119.38"/>
-<instance part="V11" gate="G$1" x="220.98" y="119.38"/>
-<instance part="GND20" gate="1" x="215.9" y="76.2"/>
-<instance part="C8" gate="G$1" x="226.06" y="114.3" rot="R90"/>
-<instance part="C9" gate="G$1" x="203.2" y="114.3" rot="R90"/>
-<instance part="GND21" gate="1" x="233.68" y="114.3" rot="R90"/>
-<instance part="GND22" gate="1" x="195.58" y="114.3" rot="R270"/>
-<instance part="C10" gate="G$1" x="198.12" y="104.14" smashed="yes" rot="R180">
-<attribute name="NAME" x="195.58" y="106.045" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="197.866" y="109.093" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="R7" gate="G$1" x="187.96" y="99.06" smashed="yes" rot="R180">
-<attribute name="NAME" x="186.69" y="102.6414" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="191.77" y="102.616" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="U$4" gate="G$1" x="180.34" y="99.06" rot="R90"/>
 <instance part="GND23" gate="1" x="251.46" y="208.28"/>
 <instance part="R9" gate="G$1" x="109.22" y="55.88" rot="R180"/>
 <instance part="R10" gate="G$1" x="109.22" y="45.72" rot="R180"/>
@@ -10435,22 +10328,6 @@ plug jumper</text>
 <pinref part="C6" gate="G$1" pin="1"/>
 <pinref part="GND17" gate="1" pin="GND"/>
 <wire x1="187.96" y1="35.56" x2="187.96" y2="33.02" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U6" gate="G$1" pin="GND"/>
-<pinref part="GND20" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="C8" gate="G$1" pin="2"/>
-<pinref part="GND21" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="C9" gate="G$1" pin="1"/>
-<pinref part="GND22" gate="1" pin="GND"/>
-<wire x1="198.12" y1="114.3" x2="200.66" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="C10" gate="G$1" pin="2"/>
-<wire x1="198.12" y1="109.22" x2="198.12" y2="114.3" width="0.1524" layer="91"/>
-<junction x="198.12" y="114.3"/>
 </segment>
 <segment>
 <pinref part="TP4" gate="G$1" pin="TP"/>
@@ -10568,16 +10445,6 @@ plug jumper</text>
 <junction x="193.04" y="43.18"/>
 <pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="187.96" y1="43.18" x2="193.04" y2="43.18" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U6" gate="G$1" pin="VCCB"/>
-<wire x1="218.44" y1="109.22" x2="220.98" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="V11" gate="G$1" pin="+3V3"/>
-<wire x1="220.98" y1="109.22" x2="220.98" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="220.98" y1="114.3" x2="220.98" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="114.3" x2="220.98" y2="114.3" width="0.1524" layer="91"/>
-<junction x="220.98" y="114.3"/>
 </segment>
 </net>
 <net name="RESET" class="0">
@@ -10974,11 +10841,6 @@ plug jumper</text>
 <label x="86.36" y="210.82" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U6" gate="G$1" pin="A1"/>
-<wire x1="200.66" y1="93.98" x2="190.5" y2="93.98" width="0.1524" layer="91"/>
-<label x="185.42" y="93.98" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="TP2" gate="G$1" pin="TP"/>
 <wire x1="248.92" y1="223.52" x2="261.62" y2="223.52" width="0.1524" layer="91"/>
 <label x="251.46" y="223.52" size="1.778" layer="95"/>
@@ -10994,11 +10856,6 @@ plug jumper</text>
 <pinref part="U1" gate="G$1" pin="COM"/>
 <wire x1="284.48" y1="86.36" x2="274.32" y2="86.36" width="0.1524" layer="91"/>
 <label x="271.78" y="86.36" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U6" gate="G$1" pin="B2"/>
-<wire x1="231.14" y1="91.44" x2="241.3" y2="91.44" width="0.1524" layer="91"/>
-<label x="233.68" y="91.44" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R10" gate="G$1" pin="1"/>
@@ -11042,20 +10899,6 @@ plug jumper</text>
 <wire x1="228.6" y1="43.18" x2="228.6" y2="48.26" width="0.1524" layer="91"/>
 <junction x="228.6" y="48.26"/>
 </segment>
-<segment>
-<pinref part="U$3" gate="G$1" pin="+2V8"/>
-<wire x1="210.82" y1="116.84" x2="210.82" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="VCCA"/>
-<wire x1="210.82" y1="114.3" x2="210.82" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="109.22" x2="213.36" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="C9" gate="G$1" pin="2"/>
-<wire x1="208.28" y1="114.3" x2="210.82" y2="114.3" width="0.1524" layer="91"/>
-<junction x="210.82" y="114.3"/>
-</segment>
-<segment>
-<pinref part="R7" gate="G$1" pin="2"/>
-<pinref part="U$4" gate="G$1" pin="+2V8"/>
-</segment>
 </net>
 <net name="SWDCLK" class="0">
 <segment>
@@ -11064,22 +10907,12 @@ plug jumper</text>
 <label x="312.42" y="182.88" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U6" gate="G$1" pin="B1"/>
-<wire x1="241.3" y1="93.98" x2="231.14" y2="93.98" width="0.1524" layer="91"/>
-<label x="233.68" y="93.98" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="55.88" x2="127" y2="55.88" width="0.1524" layer="91"/>
 <label x="117.094" y="56.642" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PN_SWDIO" class="0">
-<segment>
-<pinref part="U6" gate="G$1" pin="A2"/>
-<wire x1="200.66" y1="91.44" x2="190.5" y2="91.44" width="0.1524" layer="91"/>
-<label x="185.42" y="91.44" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="CONN1" gate="G$1" pin="2"/>
 <wire x1="193.04" y1="223.52" x2="200.66" y2="223.52" width="0.1524" layer="91"/>
@@ -11099,17 +10932,6 @@ plug jumper</text>
 <pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="104.14" y1="45.72" x2="93.98" y2="45.72" width="0.1524" layer="91"/>
 <label x="91.694" y="46.228" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$27" class="0">
-<segment>
-<pinref part="R7" gate="G$1" pin="1"/>
-<pinref part="U6" gate="G$1" pin="OE"/>
-<wire x1="193.04" y1="99.06" x2="198.12" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="C10" gate="G$1" pin="1"/>
-<wire x1="198.12" y1="99.06" x2="200.66" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="101.6" x2="198.12" y2="99.06" width="0.1524" layer="91"/>
-<junction x="198.12" y="99.06"/>
 </segment>
 </net>
 </nets>
