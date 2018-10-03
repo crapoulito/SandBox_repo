@@ -1,0 +1,14 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"MF";"MPN";"OC_FARNELL";"OC_NEWARK";
+"5";"";"LEDCHIP-LED0603";"CHIP-LED0603";"LED1, LED2, LED3, LED4, LED6";"LED";"";"";"";"";
+"4";"";"MA02-1";"MA02-1";"J6, J7, JMP3, JMP4";"PIN HEADER";"";"";"";"";
+"2";"";"MA03-1";"MA03-1";"JMP1, JMP2";"PIN HEADER";"";"";"unknown";"unknown";
+"4";"";"MA14-1";"MA14-1";"J1, J2, J4, J5";"PIN HEADER";"";"";"";"";
+"4";"100nF";"C-EUC0603K";"C0603K";"C1, C2, C3, C4";"CAPACITOR, European symbol";"";"";"";"";
+"2";"220";"R-US_R0603";"R0603";"R2, R3";"RESISTOR, American symbol";"";"";"";"";
+"3";"470";"R-US_R0603";"R0603";"R4, R5, R8";"RESISTOR, American symbol";"";"";"";"";
+"1";"FTS-105-01-F-DV";"FTS-105-01-F-DV";"FTS-105-01-F-DV";"CONN1";"";"";"";"";"";
+"1";"MEC1-108-02-XX-D-A";"MEC1-108-02-XX-D-A";"MEC1-108-02-XX-D-A";"J3";"1MM MIN-EDGE CARD ASSEMBLY.";"";"";"";"";
+"1";"NC";"C-EUC0603K";"C0603K";"C5";"CAPACITOR, European symbol";"";"";"";"";
+"2";"SN74LVC1GU04DBV";"SN74LVC1GU04DBV";"SOT23-5";"U2, U5";"SINGLE INVERTER GATE";"";"";"";"";
+"3";"TS5A9411";"TS5A9411";"SC70-6";"U1, U3, U4";"";"";"";"";"";
+"1";"nc";"R-US_R0603";"R0603";"R1";"RESISTOR, American symbol";"";"";"";"";
