@@ -10235,7 +10235,7 @@ plug jumper</text>
 <wire x1="86.36" y1="38.1" x2="132.08" y2="38.1" width="0.1524" layer="97"/>
 <wire x1="132.08" y1="38.1" x2="132.08" y2="63.5" width="0.1524" layer="97"/>
 <wire x1="132.08" y1="63.5" x2="86.36" y2="63.5" width="0.1524" layer="97"/>
-<text x="66.04" y="30.48" size="4.572" layer="97">Bypass voltage level translation</text>
+<text x="66.04" y="30.48" size="4.572" layer="97">Bypass voltage level translation (tbc)</text>
 </plain>
 <instances>
 <instance part="J2" gate="G$1" x="134.62" y="160.02" rot="R180"/>
