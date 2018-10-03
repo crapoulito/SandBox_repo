@@ -10176,9 +10176,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="V10" library="supply1" deviceset="+3V3" device=""/>
 <part name="JMP2" library="con-lstb" deviceset="MA03-1" device=""/>
 <part name="JMP1" library="con-lstb" deviceset="MA03-1" device=""/>
-<part name="LED2" library="led" deviceset="LED" device="CHIP-LED0603"/>
-<part name="R3" library="resistor" deviceset="R-US_" device="R0603" value="220"/>
-<part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="J3" library="TestBench_MUX" deviceset="MEC1-108-02-XX-D-A" device=""/>
 <part name="J6" library="con-lstb" deviceset="MA02-1" device=""/>
 <part name="J7" library="con-lstb" deviceset="MA02-1" device=""/>
@@ -10220,14 +10217,14 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <sheet>
 <plain>
 <text x="180.34" y="243.84" size="4.572" layer="97">Cable</text>
-<text x="142.24" y="119.38" size="5.08" layer="97">UM232H</text>
+<text x="142.24" y="121.92" size="5.08" layer="97">UM232H</text>
 <wire x1="182.88" y1="142.24" x2="185.42" y2="142.24" width="0.1524" layer="97"/>
 <wire x1="185.42" y1="142.24" x2="185.42" y2="165.1" width="0.1524" layer="97"/>
 <wire x1="185.42" y1="165.1" x2="182.88" y2="165.1" width="0.1524" layer="97"/>
 <text x="187.96" y="147.32" size="1.778" layer="97" rot="R90">Additional IO</text>
 <text x="93.472" y="176.022" size="1.778" layer="91">By default, do not 
 plug jumper</text>
-<text x="83.82" y="88.9" size="4.572" layer="97">Reset level</text>
+<text x="73.66" y="88.9" size="4.572" layer="97">Reset level choice</text>
 <text x="93.98" y="200.66" size="1.778" layer="91">Voir MEC1-108-02-F-D  ou  MEC1-108-02-S-D-A</text>
 <text x="88.9" y="243.84" size="4.572" layer="97">PCIE style connector</text>
 <text x="226.06" y="243.84" size="4.572" layer="97">Cable jack 3.5mm</text>
@@ -10298,9 +10295,6 @@ plug jumper</text>
 <instance part="V10" gate="G$1" x="17.78" y="218.44" rot="R180"/>
 <instance part="JMP2" gate="G$1" x="335.28" y="134.62" rot="R180"/>
 <instance part="JMP1" gate="G$1" x="86.36" y="99.06" rot="R90"/>
-<instance part="LED2" gate="G$1" x="63.5" y="236.22"/>
-<instance part="R3" gate="G$1" x="63.5" y="226.06" rot="R90"/>
-<instance part="GND6" gate="1" x="63.5" y="218.44"/>
 <instance part="J3" gate="G$1" x="104.14" y="228.6"/>
 <instance part="J6" gate="G$1" x="35.56" y="160.02"/>
 <instance part="J7" gate="G$1" x="35.56" y="147.32"/>
@@ -10415,10 +10409,6 @@ plug jumper</text>
 <segment>
 <pinref part="C5" gate="G$1" pin="1"/>
 <pinref part="GND13" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="R3" gate="G$1" pin="1"/>
-<pinref part="GND6" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="J7" gate="G$1" pin="1"/>
@@ -10873,12 +10863,6 @@ plug jumper</text>
 <junction x="83.82" y="121.92"/>
 </segment>
 </net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="LED2" gate="G$1" pin="C"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-</segment>
-</net>
 <net name="SWDO/RXD_1" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="NC"/>
@@ -10949,12 +10933,6 @@ plug jumper</text>
 <pinref part="U1" gate="G$1" pin="IN"/>
 <wire x1="287.02" y1="99.06" x2="279.4" y2="99.06" width="0.1524" layer="91"/>
 <label x="274.32" y="99.06" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="LED2" gate="G$1" pin="A"/>
-<wire x1="63.5" y1="238.76" x2="63.5" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="241.3" x2="71.12" y2="241.3" width="0.1524" layer="91"/>
-<label x="63.5" y="241.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="FT_SWD_EN_J2" class="0">
